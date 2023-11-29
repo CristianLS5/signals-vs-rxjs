@@ -1,0 +1,10 @@
+
+<mat-sidenav-container class="example-container">
+    <!--la property que se ha igualado al signal de servicio debe ir con () para ser invocada-->
+    <mat-sidenav class="example-sidenav" [opened]="!asideCollapse()">
+        <h2 mat-dialog-title>Aside Content</h2>
+    </mat-sidenav>
+    <mat-sidenav-content>
+        <p>Main Content</p>
+    </mat-sidenav-content>
+</mat-sidenav-container>
